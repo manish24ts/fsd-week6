@@ -1,0 +1,30 @@
+.parent{
+    background-color: white;
+    height: 20cm;
+    width: 40%;
+}
+.static{
+    background-color: red;
+    position: static;
+}
+.relative{
+    background-color: orangered;
+    position: relative;
+    left: 40px;
+}
+
+.absolute{
+    background-color: yellow;
+    position: absolute;
+    right: 50px;
+}
+.fixed{
+    background-color: yellowgreen;
+    position: fixed;
+    top: 70px;
+}
+.sticky{
+    background-color: green;
+    position: sticky;
+    top: 0;
+}
